@@ -11,6 +11,7 @@ Template builded to monitor an Mikrotik CCR1036-8G-2S+, but should fit any other
 
 For import you need to add regex
 
-Name: Mikrotik interfaces
+<pre>Name: Mikrotik interfaces
 Expression: .*slave.*
 Result: Result is FALSE
+</pre>
