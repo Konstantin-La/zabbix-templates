@@ -8,3 +8,9 @@ Each discovery goes to fill 6 items (port status, port admin status, bytes in, b
 taking via OID (no need to get mib)
 
 Template builded to monitor an Mikrotik CCR1036-8G-2S+, but should fit any other.
+
+For import you need to add regex
+
+Name: Mikrotik interfaces
+Expression: .*slave.*
+Result: Result is FALSE
