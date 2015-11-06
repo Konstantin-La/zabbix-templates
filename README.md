@@ -15,3 +15,16 @@ For import you need to add regex
 Expression: .*slave.*
 Result: Result is FALSE
 </pre>
+
+and few value mappings 
+Host Status 2.0	
+0 ⇒ Unreachable
+1 ⇒ UP
+
+Network port admin status	
+1 ⇒ Enabled
+2 ⇒ Disabled
+
+Network port status	
+1 ⇒ Up
+2 ⇒ Down
