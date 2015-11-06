@@ -17,7 +17,7 @@ Result: Result is FALSE
 </pre>
 
 and few value mappings 
-Host Status 2.0	
+<pre>Host Status 2.0	
 0 ⇒ Unreachable
 1 ⇒ UP
 
@@ -27,4 +27,4 @@ Network port admin status
 
 Network port status	
 1 ⇒ Up
-2 ⇒ Down
+2 ⇒ Down</pre>
