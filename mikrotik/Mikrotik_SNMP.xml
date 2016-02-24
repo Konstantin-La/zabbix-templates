@@ -46,7 +46,7 @@
                 <item>
                     <name>Active fan</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.14988.1.1.3.9.0</snmp_oid>
                     <key>.1.3.6.1.4.1.14988.1.1.3.9.0</key>
@@ -85,7 +85,7 @@
                 <item>
                     <name>CPU 01 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.1</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.1</key>
@@ -124,7 +124,7 @@
                 <item>
                     <name>CPU 02 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.2</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.2</key>
@@ -163,7 +163,7 @@
                 <item>
                     <name>CPU 03 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.3</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.3</key>
@@ -202,7 +202,7 @@
                 <item>
                     <name>CPU 04 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.4</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.4</key>
@@ -241,7 +241,7 @@
                 <item>
                     <name>CPU 05 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.5</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.5</key>
@@ -280,7 +280,7 @@
                 <item>
                     <name>CPU 06 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.6</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.6</key>
@@ -319,7 +319,7 @@
                 <item>
                     <name>CPU 07 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.7</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.7</key>
@@ -358,7 +358,7 @@
                 <item>
                     <name>CPU 08 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.8</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.8</key>
@@ -397,7 +397,7 @@
                 <item>
                     <name>CPU 09 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.9</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.9</key>
@@ -436,7 +436,7 @@
                 <item>
                     <name>CPU 10 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.10</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.10</key>
@@ -475,7 +475,7 @@
                 <item>
                     <name>CPU 11 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.11</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.11</key>
@@ -514,7 +514,7 @@
                 <item>
                     <name>CPU 12 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.12</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.12</key>
@@ -553,7 +553,7 @@
                 <item>
                     <name>CPU 13 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.13</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.13</key>
@@ -592,7 +592,7 @@
                 <item>
                     <name>CPU 14 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.14</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.14</key>
@@ -631,7 +631,7 @@
                 <item>
                     <name>CPU 15 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.15</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.15</key>
@@ -670,7 +670,7 @@
                 <item>
                     <name>CPU 16 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.16</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.16</key>
@@ -709,7 +709,7 @@
                 <item>
                     <name>CPU 17 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.17</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.17</key>
@@ -748,7 +748,7 @@
                 <item>
                     <name>CPU 18 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.18</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.18</key>
@@ -787,7 +787,7 @@
                 <item>
                     <name>CPU 19 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.19</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.19</key>
@@ -826,7 +826,7 @@
                 <item>
                     <name>CPU 20 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.20</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.20</key>
@@ -865,7 +865,7 @@
                 <item>
                     <name>CPU 21 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.21</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.21</key>
@@ -904,7 +904,7 @@
                 <item>
                     <name>CPU 22 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.22</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.22</key>
@@ -943,7 +943,7 @@
                 <item>
                     <name>CPU 23 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.23</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.23</key>
@@ -982,7 +982,7 @@
                 <item>
                     <name>CPU 24 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.24</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.24</key>
@@ -1021,7 +1021,7 @@
                 <item>
                     <name>CPU 25 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.25</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.25</key>
@@ -1060,7 +1060,7 @@
                 <item>
                     <name>CPU 26 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.26</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.26</key>
@@ -1099,7 +1099,7 @@
                 <item>
                     <name>CPU 27 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.27</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.27</key>
@@ -1138,7 +1138,7 @@
                 <item>
                     <name>CPU 28 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.28</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.28</key>
@@ -1177,7 +1177,7 @@
                 <item>
                     <name>CPU 29 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.29</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.29</key>
@@ -1216,7 +1216,7 @@
                 <item>
                     <name>CPU 30 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.30</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.30</key>
@@ -1255,7 +1255,7 @@
                 <item>
                     <name>CPU 31 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.31</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.31</key>
@@ -1294,7 +1294,7 @@
                 <item>
                     <name>CPU 32 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.32</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.32</key>
@@ -1333,7 +1333,7 @@
                 <item>
                     <name>CPU 33 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.33</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.33</key>
@@ -1372,7 +1372,7 @@
                 <item>
                     <name>CPU 34 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.34</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.34</key>
@@ -1411,7 +1411,7 @@
                 <item>
                     <name>CPU 35 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.35</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.35</key>
@@ -1450,7 +1450,7 @@
                 <item>
                     <name>CPU 36 Load</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.36</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.36</key>
@@ -1489,7 +1489,7 @@
                 <item>
                     <name>CPU frequency</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.14988.1.1.3.14.0</snmp_oid>
                     <key>.1.3.6.1.4.1.14988.1.1.3.14.0</key>
@@ -1528,7 +1528,7 @@
                 <item>
                     <name>CPU load (1st core)</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.3.3.1.2.1</snmp_oid>
                     <key>.1.3.6.1.2.1.25.3.3.1.2.111111</key>
@@ -1567,7 +1567,7 @@
                 <item>
                     <name>CPU temperature</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.14988.1.1.3.11.0</snmp_oid>
                     <key>.1.3.6.1.4.1.14988.1.1.3.11.0</key>
@@ -1606,7 +1606,7 @@
                 <item>
                     <name>Flash disk size</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>1.3.6.1.2.1.25.2.3.1.5.131072</snmp_oid>
                     <key>mikrotik.flash.size</key>
@@ -1645,7 +1645,7 @@
                 <item>
                     <name>Flash disk size used</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>1.3.6.1.2.1.25.2.3.1.6.131072</snmp_oid>
                     <key>mikrotik.flash.used</key>
@@ -1684,7 +1684,7 @@
                 <item>
                     <name>Motherboard temperature</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.14988.1.1.3.10.0</snmp_oid>
                     <key>.1.3.6.1.4.1.14988.1.1.3.10.0</key>
@@ -1723,7 +1723,7 @@
                 <item>
                     <name>Name</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.1.5.0</snmp_oid>
                     <key>.1.3.6.1.2.1.1.5.0</key>
@@ -1803,7 +1803,7 @@
                 <item>
                     <name>Software ID</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.14988.1.1.4.1.0</snmp_oid>
                     <key>.1.3.6.1.4.1.14988.1.1.4.1.0</key>
@@ -1842,7 +1842,7 @@
                 <item>
                     <name>Total memory</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.2.3.1.5.65536</snmp_oid>
                     <key>mikrotik.memory.total</key>
@@ -1881,7 +1881,7 @@
                 <item>
                     <name>Uptime</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.1.3.0</snmp_oid>
                     <key>.1.3.6.1.2.1.1.3.0</key>
@@ -1920,7 +1920,7 @@
                 <item>
                     <name>Used memory</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.2.1.25.2.3.1.6.65536</snmp_oid>
                     <key>mikrotik.memory.used</key>
@@ -1959,7 +1959,7 @@
                 <item>
                     <name>Voltage</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.14988.1.1.3.8.0</snmp_oid>
                     <key>.1.3.6.1.4.1.14988.1.1.3.8.0</key>
@@ -2000,7 +2000,7 @@
                 <discovery_rule>
                     <name>Interfaces</name>
                     <type>1</type>
-                    <snmp_community>public</snmp_community>
+                    <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.2.1.2.2.1.2</snmp_oid>
                     <key>snmp.discovery</key>
                     <delay>300</delay>
@@ -2026,7 +2026,7 @@
                         <item_prototype>
                             <name>IFACE: {#SNMPVALUE} admin status</name>
                             <type>1</type>
-                            <snmp_community>public</snmp_community>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>0</multiplier>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.7.{#SNMPINDEX}</snmp_oid>
                             <key>.1.3.6.1.2.1.2.2.1.7.[{#SNMPINDEX}]</key>
@@ -2068,7 +2068,7 @@
                         <item_prototype>
                             <name>IFACE: {#SNMPVALUE} bps in</name>
                             <type>1</type>
-                            <snmp_community>public</snmp_community>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>1</multiplier>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.10.{#SNMPINDEX}</snmp_oid>
                             <key>.1.3.6.1.2.1.2.2.1.10.[{#SNMPINDEX}]</key>
@@ -2107,7 +2107,7 @@
                         <item_prototype>
                             <name>IFACE: {#SNMPVALUE} bps out</name>
                             <type>1</type>
-                            <snmp_community>public</snmp_community>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>1</multiplier>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.16.{#SNMPINDEX}</snmp_oid>
                             <key>.1.3.6.1.2.1.2.2.1.16.[{#SNMPINDEX}]</key>
@@ -2146,7 +2146,7 @@
                         <item_prototype>
                             <name>IFACE: {#SNMPVALUE} packets in</name>
                             <type>1</type>
-                            <snmp_community>public</snmp_community>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>0</multiplier>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.11.{#SNMPINDEX}</snmp_oid>
                             <key>.1.3.6.1.2.1.2.2.1.11.[{#SNMPINDEX}]</key>
@@ -2185,7 +2185,7 @@
                         <item_prototype>
                             <name>IFACE: {#SNMPVALUE} packets out</name>
                             <type>1</type>
-                            <snmp_community>public</snmp_community>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>0</multiplier>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.17.{#SNMPINDEX}</snmp_oid>
                             <key>.1.3.6.1.2.1.2.2.1.17.[{#SNMPINDEX}]</key>
@@ -2224,7 +2224,7 @@
                         <item_prototype>
                             <name>IFACE: {#SNMPVALUE} status</name>
                             <type>1</type>
-                            <snmp_community>public</snmp_community>
+                            <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                             <multiplier>0</multiplier>
                             <snmp_oid>.1.3.6.1.2.1.2.2.1.8.{#SNMPINDEX}</snmp_oid>
                             <key>.1.3.6.1.2.1.2.2.1.8.[{#SNMPINDEX}]</key>
